@@ -9,7 +9,6 @@ collections:
     label: 'Articles'
     folder: 'static/collections/articles'
     create: true
-    slug: 'index'
     media_folder: ''
     public_folder: ''
     path: '{{title}}/index'
@@ -24,7 +23,6 @@ collections:
     label: 'Part'
     folder: 'static/collections/parts'
     create: true
-    slug: 'index'
     media_folder: ''
     public_folder: ''
     path: '{{title}}/index'
