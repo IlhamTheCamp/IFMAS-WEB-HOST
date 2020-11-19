@@ -98,22 +98,24 @@ const IndexPage = ({ data }) => {
 
 						<Grid container sm={12} justify="flex-end" alignItems="flex-end">
 							<Grid item xs={12} sm={3}>
-								<Card elevation={8} square>
-									<CardActionArea>
-										<CardMedia
-											style={{ height: '200px' }}
-											image={require("../images/driving.jpg")}
-										/>
-										<CardContent>
-											<Grid container>
-												<Typography item gutterBottom variant="h6">
-													Menjelajahi Lebih Lanjut
-                       							 </Typography>
-												<ArrowForwardIosIcon item fontSize='small' style={{ marginTop: '0.72vh', marginLeft: '0.7vh' }}></ArrowForwardIosIcon>
-											</Grid>
-										</CardContent>
-									</CardActionArea>
-								</Card>
+								<a href='https://bengkel-ali.netlify.app/articles/'>
+									<Card elevation={8} square>
+										<CardActionArea>
+											<CardMedia
+												style={{ height: '200px' }}
+												image={require("../images/driving.jpg")}
+												/>
+											<CardContent>
+												<Grid container>
+													<Typography item gutterBottom variant="h6">
+														Menjelajahi Lebih Lanjut
+													</Typography>
+													<ArrowForwardIosIcon item fontSize='small' style={{ marginTop: '0.72vh', marginLeft: '0.7vh' }}></ArrowForwardIosIcon>
+												</Grid>
+											</CardContent>
+										</CardActionArea>
+									</Card>
+								</a>
 							</Grid>
 						</Grid>
 
@@ -196,19 +198,17 @@ const IndexPage = ({ data }) => {
 						<Paper elevation={8} square >
 							<Grid container sm={12} justify="center" >
 								<Grid item sm={8}>
-									<a href="https://bengkel-ali.netlify.app/articles">
-										<Card square elevation={8} style={{ backgroundColor: `${accent}` }}>
-											<CardMedia
-												style={{ height: 0, paddingTop: '60%' }}
-												image={Mechanic}
-											/>
-											<CardContent>
-												<Typography item gutterBottom variant="h6" style={{ color: 'white' }}>
-													"Pak Ali lagi memperbaiki roda mobil"
-												</Typography>
-											</CardContent>
-										</Card>
-									</a>
+									<Card square elevation={8} style={{ backgroundColor: `${accent}` }}>
+										<CardMedia
+											style={{ height: 0, paddingTop: '60%' }}
+											image={Mechanic}
+										/>
+										<CardContent>
+											<Typography item gutterBottom variant="h6" style={{ color: 'white' }}>
+												"Pak Ali lagi memperbaiki roda mobil"
+											</Typography>
+										</CardContent>
+									</Card>
 								</Grid>
 								<Grid item sm={4}>
 									<Box p={5} my={5}>
