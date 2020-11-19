@@ -77,7 +77,7 @@ const IndexPage = ({ data }) => {
 						<Grid item container sm={12}>
 							<Grid item sm={12}>
 								<Typography variant="h1" component="h2" style={{ fontWeight: 'bold', color: 'white' }}>
-									Professional repair <br />
+									Professional repapapapap <br />
 									of passanger cars.
 								</Typography>
 								<Typography variant="h5" gutterBottom style={{ color: 'white' }}>
