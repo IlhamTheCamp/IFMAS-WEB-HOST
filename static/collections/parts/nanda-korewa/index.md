@@ -1,5 +1,5 @@
 ---
-title: Nanda Korewa
+title: SparePart 1
 date: 2020-11-12T13:14:51.240Z
 thumbnail: 736461.png
 stock: 2
