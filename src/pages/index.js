@@ -77,11 +77,11 @@ const IndexPage = ({ data }) => {
 						<Grid item container sm={12}>
 							<Grid item sm={12}>
 								<Typography variant="h1" component="h2" style={{ fontWeight: 'bold', color: 'white' }}>
-									Professional repapapapap <br />
-									of passanger cars.
+									Memperbaiki semua jenis mobil <br />
+									Hybrid dan Konvensional.
 								</Typography>
 								<Typography variant="h5" gutterBottom style={{ color: 'white' }}>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit
+									Dengan pengalaman Mekanik lebih dari 20 tahun
                 				</Typography>
 							</Grid>
 
