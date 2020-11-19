@@ -77,8 +77,7 @@ const IndexPage = ({ data }) => {
 						<Grid item container sm={12}>
 							<Grid item sm={12}>
 								<Typography variant="h1" component="h2" style={{ fontWeight: 'bold', color: 'white' }}>
-									Memperbaiki semua jenis mobil <br />
-									Hybrid dan Konvensional.
+									Memperbaiki semua jenis mobil
 								</Typography>
 								<Typography variant="h5" gutterBottom style={{ color: 'white' }}>
 									Dengan pengalaman Mekanik lebih dari 20 tahun
@@ -88,11 +87,11 @@ const IndexPage = ({ data }) => {
 							<Grid container spacing={4} sm={12} style={{ paddingTop: '2vh' }}>
 								<Grid item>
 									<Button variant="contained" size='large' onClick={executeScroll} style={{ color: 'white', backgroundColor: `${accent}`, ...mainButtonStyle }}>
-										Check our services
+										Lihat Layanan Kami
                   					</Button>
 								</Grid>
 								<Grid item>
-								<a href="https://wa.link/vv1ltb" target="_blank"><Button variant="contained" size='large' style={mainButtonStyle}>contact us</Button></a>
+								<a href="https://wa.link/vv1ltb" target="_blank"><Button variant="contained" size='large' style={mainButtonStyle}>Hubungi Kami</Button></a>
 								</Grid>
 							</Grid>
 						</Grid>
@@ -108,7 +107,7 @@ const IndexPage = ({ data }) => {
 										<CardContent>
 											<Grid container>
 												<Typography item gutterBottom variant="h6">
-													Discover More
+													Menjelajahi Lebih Lanjut
                        							 </Typography>
 												<ArrowForwardIosIcon item fontSize='small' style={{ marginTop: '0.72vh', marginLeft: '0.7vh' }}></ArrowForwardIosIcon>
 											</Grid>
@@ -122,18 +121,18 @@ const IndexPage = ({ data }) => {
 						<Box ref={myRef} pt={1}>
 							<Grid container sm={12} spacing={3}>
 								<Grid item sm={12}>
-									<Typography variant='h2' style={{ fontWeight: 'normal' }}> Why is it worth trusting <br /> our company?</Typography>
+									<Typography variant='h2' style={{ fontWeight: 'normal' }}> Kenapa harus percaya dengan <br /> layanan kami?</Typography>
 								</Grid>
 
 								<Grid item sm={6}>
 									<List style={{ width: '100%', maxWidth: 360 }}>
 										{
 											[
-												"A professional team",
-												"Low prices",
-												"Solidty",
-												"The best quality",
-												"10 years of experience"
+												"Tim mekanik profesional",
+												"Rekan kerja internasional",
+												"Harga Lebih murah hingga 50% dari bengkel normal",
+												"Qualitas Terbaik",
+												"Pengalaman lebih dari 20 tahun"
 											].map((textData, index) => {
 												if (index < 4) {
 													return <>
@@ -149,13 +148,11 @@ const IndexPage = ({ data }) => {
 
 								<Grid item sm={6}>
 									<Typography variant='h4' style={{ marginBottom: '3%' }}>
-										Ameno, ameno do re-, ameno dori me <br />
-                  						Ameno dori me, ameno do-
+										eque porro quisquam est qui dolorem <br />
+										ipsum quia dolor sit amet
              					     </Typography>
 									<Typography variant='body1' style={{ fontWeight: 'lighter' }}>
-										Doge (pronounced /ˈdoʊdʒ/ DOHJ) is a slang term for "dog" that is primarily associated with pictures of Shiba Inus (nicknamed "Shibe") and
-										internal monologue captions on Tumblr. These photos may be photoshopped to change the dog's face or captioned with interior monologues in
-										Comic Sans font. Starting in2017, Ironic Doge formats gained prevalence over the original wholesome version.
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularis
                  					</Typography>
 								</Grid>
 							</Grid>
@@ -167,25 +164,25 @@ const IndexPage = ({ data }) => {
 							<Grid sm item>
 								<Box display='flex' flexDirection='column' alignItems="center" justifyContent="center" p={3} style={{ backgroundColor: `${accent}` }}>
 									<AccessTimeIcon style={{ fontSize: 100, marginBottom: '10%', color: 'white' }}></AccessTimeIcon>
-									<Typography variant='h5' align='center' style={{ color: 'white' }}>Tire Replacement</Typography>
+									<Typography variant='h5' align='center' style={{ color: 'white' }}>Servis Mesin</Typography>
 								</Box>
 							</Grid>
 							<Grid sm item>
 								<Box display='flex' flexDirection='column' alignItems="center" justifyContent="center" p={3} style={{ backgroundColor: `${deepPurple[600]}` }}>
 									<AccessTimeIcon style={{ fontSize: 100, marginBottom: '10%', color: 'white' }}></AccessTimeIcon>
-									<Typography variant='h5' align='center' style={{ color: 'white' }}>Tire Replacement</Typography>
+									<Typography variant='h5' align='center' style={{ color: 'white' }}>Ganti Ban</Typography>
 								</Box>
 							</Grid>
 							<Grid sm item>
 								<Box display='flex' flexDirection='column' alignItems="center" justifyContent="center" p={3} style={{ backgroundColor: `${deepPurple[700]}` }}>
 									<AccessTimeIcon style={{ fontSize: 100, marginBottom: '10%', color: 'white' }}></AccessTimeIcon>
-									<Typography variant='h5' align='center' style={{ color: 'white' }}>Tire Replacement</Typography>
+									<Typography variant='h5' align='center' style={{ color: 'white' }}>Ganti Oli</Typography>
 								</Box>
 							</Grid>
 							<Grid sm item>
 								<Box display='flex' flexDirection='column' alignItems="center" justifyContent="center" p={3} style={{ backgroundColor: `${deepPurple[800]}` }}>
 									<AccessTimeIcon style={{ fontSize: 100, marginBottom: '10%', color: 'white' }}></AccessTimeIcon>
-									<Typography variant='h5' align='center' style={{ color: 'white' }}>Tire Replacement</Typography>
+									<Typography variant='h5' align='center' style={{ color: 'white' }}>Dan Lainnya</Typography>
 								</Box>
 							</Grid>
 
@@ -233,8 +230,8 @@ const IndexPage = ({ data }) => {
 								mb={10} textAlign='center' 
 								style={{backgroundColor: `${accent}`, backgroundImage: `url(${Engine})`, backgroundRepeat: 'no-repeat', backgroundSize: '50%',backgroundPosition: 'right'}}
 							>
-								<Typography variant='h2' style={{ fontWeight: 'normal', marginTop: '5%', color: 'white' }}>Need a Fix?</Typography>
-								<Typography variant='body1' style={{ fontWeight: 'normal', color: 'white', marginBottom: '2%' }}>Lorem lorem lorem ipsum ipsum</Typography>
+								<Typography variant='h2' style={{ fontWeight: 'normal', marginTop: '5%', color: 'white' }}>Butuh Bantuan?</Typography>
+								<Typography variant='body1' style={{ fontWeight: 'normal', color: 'white', marginBottom: '2%' }}>Langsung saja isi form booking di bawah</Typography>
 								<form  autoComplete="off">
 									{/* Repeating?*/}
 									<TextField type='text' label="Nama" variant="filled" style={{ backgroundColor: 'white' }} onChange={t => prosesValName(t)} />
