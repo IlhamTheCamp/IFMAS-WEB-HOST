@@ -41,20 +41,11 @@ const mainButtonStyle = {
 	borderRadius: '0'
 }
 
-
-var element = document.getElementById("service");
-
-
-
-
-
-
 const IndexPage = ({ data }) => {
 	
 	const [nama,setVal] = useState('')
 	const [kendaraan,setKendaran] = useState('')
 	const [masalah,setMasalah] = useState('')
-
 	const myRef = useRef(null)
 
 	const executeScroll = () => myRef.current.scrollIntoView({behavior: "smooth"})
