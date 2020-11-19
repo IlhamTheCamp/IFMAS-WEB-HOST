@@ -9,13 +9,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `admin`,
-        path: `${__dirname}/static/admin`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         name: `articles`,
         path: `${__dirname}/static/collections/articles`,
       },
