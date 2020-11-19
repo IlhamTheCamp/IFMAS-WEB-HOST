@@ -77,7 +77,7 @@ const IndexPage = ({ data }) => {
 						<Grid item container sm={12}>
 							<Grid item sm={12}>
 								<Typography variant="h1" component="h2" style={{ fontWeight: 'bold', color: 'white' }}>
-									Memperbaiki semua jenis mobil
+									Memperbaiki semua jenis Mobil
 								</Typography>
 								<Typography variant="h5" gutterBottom style={{ color: 'white' }}>
 									Dengan pengalaman Mekanik lebih dari 20 tahun
@@ -130,8 +130,8 @@ const IndexPage = ({ data }) => {
 											[
 												"Tim mekanik profesional",
 												"Rekan kerja internasional",
-												"Harga Lebih murah hingga 50% dari bengkel normal",
-												"Qualitas Terbaik",
+												"Harga lebih murah hingga 50% dari bengkel normal",
+												"Kualitas Terbaik",
 												"Pengalaman lebih dari 20 tahun"
 											].map((textData, index) => {
 												if (index < 4) {
@@ -190,32 +190,34 @@ const IndexPage = ({ data }) => {
 
 						{/* Bagian - Owner  */}
 						<Typography variant='h2' align='right' gutterBottom style={{ fontWeight: 'normal', marginTop: '5%' }}>
-							Meet the owner
+							Kenalanan Sama Pemilik Bengkel
 						</Typography>
 
 						<Paper elevation={8} square >
 							<Grid container sm={12} justify="center" >
 								<Grid item sm={8}>
-									<Card square elevation={8} style={{ backgroundColor: `${accent}` }}>
-										<CardMedia
-											style={{ height: 0, paddingTop: '60%' }}
-											image={Mechanic}
-										/>
-										<CardContent>
-											<Typography item gutterBottom variant="h6" style={{ color: 'white' }}>
-												"Pak Ali showing off some skill with that hand"
-                    						</Typography>
-										</CardContent>
-									</Card>
+									<a href="https://bengkel-ali.netlify.app/articles">
+										<Card square elevation={8} style={{ backgroundColor: `${accent}` }}>
+											<CardMedia
+												style={{ height: 0, paddingTop: '60%' }}
+												image={Mechanic}
+											/>
+											<CardContent>
+												<Typography item gutterBottom variant="h6" style={{ color: 'white' }}>
+													"Pak Ali lagi memperbaiki roda mobil"
+												</Typography>
+											</CardContent>
+										</Card>
+									</a>
 								</Grid>
 								<Grid item sm={4}>
 									<Box p={5} my={5}>
-										<Typography variant='h3' gutterBottom>Hi!, My name is <br /> Pak Ali</Typography>
-										<Typography variant='h3' gutterBottom>I'm the owner</Typography>
+										<Typography variant='h3' gutterBottom>Hai!, nama saya<br /> Pak Ali</Typography>
+										<Typography variant='h3' gutterBottom>Saya pemilik Bengkel</Typography>
 										<Typography variant='body1'>
-											Vehicle mechanic with 9 years of experience in automotive maintenance, repair, and servicing. Extensive experience working with
-											gasoline and diesel vehicles, examining automotive electronic equipment, and testing and tuning exhaust systems. Possess ASE
-											A Series certification. bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+											Mekanik kendaraan dengan 9 tahun pengalaman di bidang perawatan, perbaikan, dan servis otomotif. Pengalaman luas bekerja dengan
+											kendaraan bensin dan solar, memeriksa peralatan elektronik otomotif, dan menguji serta menyetel sistem pembuangan. Memiliki ASE
+											Sertifikasi Seri A.
 									</Typography>
 									</Box>
 								</Grid>
