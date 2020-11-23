@@ -1,5 +1,5 @@
 ---
-title: 10 Merk Ban Mobil yang Cocok dan Bagus di Iklim Tropis Indonesia
+title: 10 Merk Ban Mobil yang Cocok dan Bagus
 date: 2020-11-20T01:28:12.295Z
 thumbnail: harga-ban-mobil-ring-15.jpg
 ---
