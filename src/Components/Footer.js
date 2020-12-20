@@ -18,9 +18,9 @@ const Footer = props => {
                     <Typography variant='h6'>
                         Bengkel Pak Ali
                     </Typography>
-                    <Typography variant='p' color='textSecondary'>
+                    {/* <Typography variant='p' color='textSecondary'>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </Typography>
+                    </Typography> */}
                     <Typography variant='p' color='textSecondary'>
                         Alamat : SMK Assalam Bandung (Jalan Situ Tarate Jl. Cibaduyut Raya, Cangkuang Kulon, Kec. Dayeuhkolot, Kota Bandung, Jawa Barat 40265)
                     </Typography>
@@ -43,9 +43,9 @@ const Footer = props => {
                     <Typography variant='h6'>
                         Credits
                     </Typography>
-                    <Typography variant='' color='textSecondary'>
+                    {/* <Typography variant='' color='textSecondary'>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
-                    </Typography>
+                    </Typography> */}
                     <Typography variant='subtitle1' style={{ fontWeight: 'bold' }}>
                         Alrights Reserved to Developer.
                     </Typography>

@@ -35,7 +35,7 @@ const Parts = ({ data }) => {
           Parts List
         </Typography>
         <Typography variant='subtitle1' color='textSecondary' style={{ maxWidth: '400px', fontWeight: 'bold' }}>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Daftar Sparepart yang tersedia di Bengkel kami.
         </Typography>
         <Box style={{ marginTop: '2em' }}>
           <Autocomplete

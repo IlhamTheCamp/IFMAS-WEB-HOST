@@ -29,7 +29,7 @@ const Articles = ({ data }) => {
           Articles
         </Typography>
         <Typography variant='subtitle1' color='textSecondary' style={{ maxWidth: '400px', fontWeight: 'bold' }}>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Dapatkan info menarik seputar dunia otomotif disini.
         </Typography>
 
         <Box id='articles' style={{ margin: '2em 0' }}>

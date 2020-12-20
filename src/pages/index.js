@@ -149,13 +149,13 @@ const IndexPage = ({ data }) => {
 								</Grid>
 
 								<Grid item sm={6}>
-									<Typography variant='h4' style={{ marginBottom: '3%' }}>
+									{/* <Typography variant='h4' style={{ marginBottom: '3%' }}>
 										eque porro quisquam est qui dolorem <br />
 										ipsum quia dolor sit amet
              					     </Typography>
 									<Typography variant='body1' style={{ fontWeight: 'lighter' }}>
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularis
-                 					</Typography>
+                 					</Typography> */}
 								</Grid>
 							</Grid>
 						</Box>
